@@ -46,4 +46,12 @@ class MathClassTest {
         assertEquals(mathClass.Task5(70,80,1,100),250);
         assertEquals(mathClass.Task5(60,70,3,180),570);
     }
+
+    @Disabled
+    @Test
+    @DisplayName("температура")
+    public void task6() {
+        assertEquals(mathClass.Task6(66.05),18.92);
+        assertEquals(mathClass.Task6(97.63),36.46);
+    }
 }
