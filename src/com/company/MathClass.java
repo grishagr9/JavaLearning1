@@ -3,6 +3,28 @@ package com.company;
 public class MathClass {
 
 
+    //возвести переменную в квадат
+    public double Task03(int a){
+        //TODO
+        return 0;
+    }
+    //уменьшить значение переменной на 10
+    public double Task02(int a){
+        return a-10;
+    }
+    //уменьшить значение переменной на 4
+    public double Task01(int a){
+        //TODO
+        return 0;
+    }
+    //посчитать сумму чисел
+    public int Task001(int a, int b){
+        return 0;
+    }
+    //посчитать разность чисел
+    private int Task002(int a, int b){
+        return 0;
+    }
 
     //Дана сторона и периметр прямоугольника, найти вторую сторону
     public double Task1(double a, double P){
@@ -30,7 +52,7 @@ public class MathClass {
         return dis;
     }
 
-    //решить линейное уравнение A*x+B=0
+    //решить линейное уравнение A*x+B=0 - найти х
     public double Task4(double a, double b){
         //TODO
         return 0;
