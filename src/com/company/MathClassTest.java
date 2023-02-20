@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 class MathClassTest {
     MathClass mathClass = new MathClass();
-    @Disabled
+    //@Disabled
     @Test
     @DisplayName("периметр и сторона")
     void task1() {
@@ -16,7 +16,7 @@ class MathClassTest {
         assertEquals(mathClass.Task1(7.5,32),8.5);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     @DisplayName("катеты и гипотенуза")
     void task2() {
@@ -31,12 +31,12 @@ class MathClassTest {
         assertEquals(mathClass.Task3(0.5,4.5,25.74,105.3),2.2);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     @DisplayName("линейное уравнени")
     public void task4() {
         assertEquals(mathClass.Task4(-2,-14),-7);
-        assertEquals(mathClass.Task4(30,90),3);
+        assertEquals(mathClass.Task4(30,-90),3);
     }
 
     @Disabled

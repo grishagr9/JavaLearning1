@@ -6,7 +6,7 @@ public class MathClass {
     //возвести переменную в квадат
     public double Task03(int a){
         //TODO
-        return 0;
+        return a*a;
     }
     //уменьшить значение переменной на 10
     public double Task02(int a){
@@ -15,26 +15,27 @@ public class MathClass {
     //уменьшить значение переменной на 4
     public double Task01(int a){
         //TODO
-        return 0;
+        return a-4;
     }
     //посчитать сумму чисел
     public int Task001(int a, int b){
-        return 0;
+        return a+b;
     }
     //посчитать разность чисел
     private int Task002(int a, int b){
-        return 0;
+        return a-b;
     }
 
     //Дана сторона и периметр прямоугольника, найти вторую сторону
     public double Task1(double a, double P){
         //TODO
-        return 0;
+        return P/2-a;
     }
     //Даны катеты  прямоугольного треугольника a и b. Найти сумму его гипотенузы и периметра Р
     public double Task2(double a, double b){
         //TODO
-        return 0;
+        double c = Math.hypot(a,b) ;
+        return c+c+a+b;
     }
 
     //x=0.5 y=4.5 a=25.74 b=105.30    51.48 23.4 2.2
@@ -54,8 +55,8 @@ public class MathClass {
 
     //решить линейное уравнение A*x+B=0 - найти х
     public double Task4(double a, double b){
-        //TODO
-        return 0;
+        double c = -b/a;
+        return c;
     }
 
     //скорость первого автомобиля V1, второго V2. Расстояние между ними S км. определить расстояние между ними
